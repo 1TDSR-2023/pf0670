@@ -1,27 +1,18 @@
 *{
     margin: 0;
-    padding: 0 ;
+    padding: 0;
     box-sizing: border-box;
-
 }
 
 html{
-font-size: 70%;
-
+    font-size: 70%;
 }
 
-.cabecalho{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-}
 
 .cabecalho img{
     width: 30%;
     max-width: 30%;
     display: block;
-
 }
 
 .cabecalho nav{
@@ -38,6 +29,13 @@ font-size: 70%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
     padding: 20% 0;
+}
+
+
+/* UTILIZA PSEUDO CLASSES PARA EFEITOS - HOVER */
+.cabecalho a:hover{
+    color: #000000;
+    background-color: #fff;
 }
 
 /*ULTILIZ PSEUDO CLASSES PARA EFEITOS - HOVER */
@@ -61,3 +59,4 @@ font-size: 70%;
  .conteudo{
     font-size: 4rem;
  }
+
