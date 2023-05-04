@@ -1,9 +1,16 @@
 
+// var nome = "Ruan";
+// let nome2 = "Borís";
 
-var nome1 = "Petroni";
+// //Regra 1 : INICIALIZAR NA DECLARAÇÃO;
+// //Regra 2 : NÃO ALTERAR O SEU VALOR DURANTE O FLUXO DO PROGRAMA;
+// const PI = 3.14;
 
-if(nome1 != ""){
-    let nome1 = "Geovana";
-}
+// var nome1 = "Petroni";
 
-console.log(nome1);
+// if(nome1 != ""){
+//     let nome1 = "Geovana";
+// }
+
+// console.log(nome1);
+
