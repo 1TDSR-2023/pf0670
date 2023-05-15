@@ -5,6 +5,21 @@ function insereNumeroNoVisor(botao,visor) {
 const calculoDoVisor = (visor)=>{
     visor.value = eval(visor.value);
 }
+function dellResultado() {
+    resultField.value = '';
+  }
 
-// Desafio 3
-// Impeça a entrada de mais de uma vez do operador matematico
+function insereNumeroNoVisor (botao,visor){
+    if(botao.value == "+" || botao.value == "-" || botao.value == "*" || botao.value == "/" ){
+
+        if(visor.value[visor.value.lenght-1] == "+" || visor.value[visor.value.lenght-1] == "-" || visor.value[visor.value.lenght-1] == "*" || visor.value [visor.value.lenght-1] == "/"){
+            visor.value.slice(visor.value.lenght-1)
+        }else{ 
+            visor.value += botao.value      
+        }
+
+    }else{
+        visor.value += botao.value
+    }
+
+}
