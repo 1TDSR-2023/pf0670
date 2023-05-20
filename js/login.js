@@ -132,6 +132,12 @@ try{
         //ADICIONANDO O USUÁRIO-VALIDADO NO LOCAL-STORAGE
         localStorage.setItem("user-validado", JSON.stringify(userValidado));
 
+        //Criando um token com o Math.randon 
+        const token = Math.random().toString(16).substring(2)+Math.random().toString(16).substring(2);
+        
+        //ADICIONANDO O TOKEN NO LOCAL-STORAGE
+        localStorage.setItem("user-token", token);
+
         //Redirect
         setTimeout(()=>{
             window.location.href = "../home.html";
